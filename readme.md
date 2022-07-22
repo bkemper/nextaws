@@ -1,1 +1,1 @@
-# NextJS on AWS
+# Next.js on AWS
