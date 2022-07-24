@@ -1,0 +1,9 @@
+tap "homebrew/cask"
+
+brew "awscli"
+brew "git"
+brew "gh"
+brew "nvm"
+brew "terraform"
+
+cask "docker"
