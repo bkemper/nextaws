@@ -7,10 +7,12 @@
     "npm": "^8.13.2"
   },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "docker:build": "docker build -t nextaws-server .",
+    "docker:run": "docker run -p 3000:3000 nextaws-server",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "next": "12.2.3",
